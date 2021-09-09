@@ -27,6 +27,6 @@
   <td>$0.96</td></tr>
 </table>
 </hr>
-<a href=“https://github.com/TJteja/assignment2-Vissapragada/blob/main/AboutMe.md” >AboutMe</a>
+<a href=https://github.com/TJteja/assignment2-Vissapragada/blob/main/AboutMe.md >AboutMe</a>
  
      
