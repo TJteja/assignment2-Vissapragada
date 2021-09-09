@@ -37,7 +37,7 @@
 <blockquote><q>A prime number is a positive integer or a whole number greater than 1, which is only divisible by 1 and itself. The Prime number algorithm is a program used to find prime numbers by sieving or removing composite numbers. The algorithm makes work easier by eliminating complex looping divisions or multiplications.
 </q></blockquote>
 <a href=https://www.storyofmathematics.com/sieve-of-eratosthenes >Source link for definition </a><br>
-```java
+````
  int i,m=0,flag=0;      
   int n=3;//it is the number to be checked    
   m=n/2;      
@@ -55,7 +55,7 @@
   }//end of else  
 }    
 }   
-```
+````
 
 </hr>
  
