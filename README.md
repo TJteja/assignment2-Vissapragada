@@ -8,7 +8,26 @@
 <ul> <li>Drinks </li>
      <li>Snacks</li>
 </ul>       </h3>  </hr>  
-<a href=“C:\Users\S545438\OneDrive - nwmissouri.edu\Documents\GitHubaVissapragada\AboutMe.md”> 
+<a href=“https://github.com/TJteja/assignment2-Vissapragada/blob/main/AboutMe.md”> 
 link to AboutMe.md</a>
+<hr><h4>Food and Beverages </h4>
+<p>Food and Beverages, places where they are available and their cost.</p>
+<table>
+<tr>
+<th> Food/Drink </th>
+<th> Location </th>
+ <th>Cost</th>
+</tr>
+<tr>
+<td> Milk </td>
+<td> Hy-vee </td>
+ <td>$1.96  </td>
+</tr>
+  <tr>
+  <td>Pepsi</td>
+  <td>Walmart</td>
+  <td>$0.96</td></tr>
+</table>
+</hr>
  
      
