@@ -34,6 +34,7 @@
 </blockquote >
 </hr>
 <hr><h5>Prime Number Algorithm</h5>
+<blockquote><q>A prime number is a positive integer or a whole number greater than 1, which is only divisible by 1 and itself. The Prime number algorithm is a program used to find prime numbers by sieving or removing composite numbers. The algorithm makes work easier by eliminating complex looping divisions or multiplications.</q></blockquote>
 
 </hr>
  
