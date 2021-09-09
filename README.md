@@ -32,7 +32,6 @@
 <q>The greatest glory in living lies not in never falling, but in rising every time we fall.
 <blockquote cite="https://blog.hubspot.com/sales/famous-quotes"><i> Nelson Mandela</i> </blockquote ></q>
 <q>If life were predictable it would cease to be life, and be without flavor.
-
 <blockquote cite="https://blog.hubspot.com/sales/famous-quotes"> <i>Eleanor Roosevelt </i></blockquote ></q>
 </hr>
  
