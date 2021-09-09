@@ -29,8 +29,9 @@
 </hr>
 <a href=https://github.com/TJteja/assignment2-Vissapragada/blob/main/AboutMe.md >AboutMe</a>
 <hr><h5>Quotes</h5>
-<blockqoute1><q>The greatest glory in living lies not in never falling, but in rising every time we fall -<i> Nelson Mandela</i></q></blockqoute>
-<blockquote2><q>If life were predictable it would cease to be life, and be without flavor -<i>Eleanor Roosevelt </i></q></blockquote >
+<blockquote><q>If life were predictable it would cease to be life, and be without flavor -<i>Eleanor Roosevelt </i></q>
+<q>The greatest glory in living lies not in never falling, but in rising every time we fall -<i> Nelson Mandela</i></q>
+</blockquote >
 </hr>
 <hr><h5>Prime Number Algorithm</h5>
 
