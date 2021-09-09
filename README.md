@@ -4,4 +4,8 @@
 <h3> Directions to my favourite place
 <hr>
 <ol> <li> Start from Maryville to St.Joseph</li>
-     <li>Then St. Joseph to Kansas City</li></ol>  </h3></hr>
+     <li>Then St. Joseph to Kansas City</li></ol>
+<ul> <li>Drinks </li>
+     <li>Snacks</li>
+</ul>       </h3>  </hr>   
+     
