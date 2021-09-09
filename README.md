@@ -8,8 +8,7 @@
 <ul> <li>Drinks </li>
      <li>Snacks</li>
 </ul>       </h3>  </hr>  
-<a href=“https://github.com/TJteja/assignment2-Vissapragada/blob/main/AboutMe.md”> 
-link to AboutMe.md</a>
+<a href=“https://github.com/TJteja/assignment2-Vissapragada/blob/main/AboutMe.md” alt="AboutMe.md"></a>
 <hr><h4>Food and Beverages </h4>
 <p>Food and Beverages, places where they are available and their cost.</p>
 <table>
