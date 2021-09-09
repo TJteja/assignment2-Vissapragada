@@ -33,31 +33,61 @@
 <q>The greatest glory in living lies not in never falling, but in rising every time we fall -<i> Nelson Mandela</i></q>
 </blockquote >
 </hr>
-<hr><h5>Prime Number Algorithm</h5>
-<blockquote><q>A prime number is a positive integer or a whole number greater than 1, which is only divisible by 1 and itself. The Prime number algorithm is a program used to find prime numbers by sieving or removing composite numbers. The algorithm makes work easier by eliminating complex looping divisions or multiplications.
+<hr><h5>Using Bellman-Ford algorithm</h5>
+<blockquote><q>Given a graph and a source vertex src in graph, find shortest paths from src to all vertices in the given graph. The graph may contain negative weight edges. 
+We have discussed Dijkstra’s algorithm for this problem. Dijkstra’s algorithm is a Greedy algorithm and time complexity is O(V+E LogV) (with the use of Fibonacci heap). Dijkstra doesn’t work for Graphs with negative weight edges, Bellman-Ford works for such graphs. Bellman-Ford is also simpler than Dijkstra and suites well for distributed systems. But time complexity of Bellman-Ford is O(VE), which is more than Dijkstra. 
 </q></blockquote>
-<a href=https://www.storyofmathematics.com/sieve-of-eratosthenes >Source link for definition </a><br>
+<a href=https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/ >Source link for definition </a><br>
 
 ```
- int i,m=0,flag=0;      
-  int n=3;//it is the number to be checked    
-  m=n/2;      
-  if(n==0||n==1){  
-   System.out.println(n+" is not prime number");      
-  }else{  
-   for(i=2;i<=m;i++){      
-    if(n%i==0){      
-     System.out.println(n+" is not prime number");      
-     flag=1;      
-     break;      
-    }      
-   }      
-   if(flag==0)  { System.out.println(n+" is prime number"); }  
-  } 
+struct Edge {
+    int a, b, cost;
+};
+
+int n, m;
+vector<Edge> edges;
+const int INF = 1000000000;
+
+void solve()
+{
+    vector<int> d(n);
+    vector<int> p(n, -1);
+    int x;
+    for (int i = 0; i < n; ++i) {
+        x = -1;
+        for (Edge e : edges) {
+            if (d[e.a] + e.cost < d[e.b]) {
+                d[e.b] = d[e.a] + e.cost;
+                p[e.b] = e.a;
+                x = e.b;
+            }
+        }
+    }
+
+    if (x == -1) {
+        cout << "No negative cycle found.";
+    } else {
+        for (int i = 0; i < n; ++i)
+            x = p[x];
+
+        vector<int> cycle;
+        for (int v = x;; v = p[v]) {
+            cycle.push_back(v);
+            if (v == x && cycle.size() > 1)
+                break;
+        }
+        reverse(cycle.begin(), cycle.end());
+
+        cout << "Negative cycle: ";
+        for (int v : cycle)
+            cout << v << ' ';
+        cout << endl;
+    }
+}
 ```
 
 <br>
-<a href=https://www.javatpoint.com/prime-number-program-in-java >Source link for definition </a>
+<a href=https://cp-algorithms.com/graph/finding-negative-cycle-in-graph.html >Source link for code </a>
 
 
 
