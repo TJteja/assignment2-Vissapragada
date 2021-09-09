@@ -29,8 +29,11 @@
 </hr>
 <a href=https://github.com/TJteja/assignment2-Vissapragada/blob/main/AboutMe.md >AboutMe</a>
 <hr><h5>Quotes</h5>
-<blockquote cite="The greatest glory in living lies not in never falling, but in rising every time we fall."><i> Nelson Mandela</i> </blockquote >
-<blockquote cite="If life were predictable it would cease to be life, and be without flavor."> <i>Eleanor Roosevelt </i></blockquote >
+<q>The greatest glory in living lies not in never falling, but in rising every time we fall.
+<blockquote cite="https://blog.hubspot.com/sales/famous-quotes"><i> Nelson Mandela</i> </blockquote ></q>
+<q>If life were predictable it would cease to be life, and be without flavor.
+
+<blockquote cite="https://blog.hubspot.com/sales/famous-quotes"> <i>Eleanor Roosevelt </i></blockquote ></q>
 </hr>
  
      
